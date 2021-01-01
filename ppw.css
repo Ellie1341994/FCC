@@ -1,0 +1,99 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    color: black;
+    text-decoration: none;
+}
+nav
+{
+    position: sticky;
+    top: 0;
+    width: 100%;
+    border-bottom: 1px solid black;
+    background-color: white;
+}
+nav ul
+{
+    display: flex;
+    width: 50%;
+    margin-left: 45%;
+    padding: 1% 2.5%;
+    justify-content: space-evenly;
+    transition: linear margin 1s, linear width 1s;
+}
+#welcome-section
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+}
+#projects
+{
+    border-top: 1px solid black;
+    height: 100vh;
+    width: 100%;
+}
+#projects > div
+{
+    display: flex;
+    width: 95%;
+    padding: 0 2.5%;
+    border-radius: 100px;
+}
+#projects div span
+{
+    width: 50%;
+}
+.leftEye
+{
+    border: 4px solid black;
+    border-radius: 0% 35%;
+    width: 95%;
+    margin-right: 5%;
+}
+.rightEye
+{
+    border: 4px solid black;
+    border-radius: 35% 0;
+    width: 95%;
+    margin-left: 5%;
+}
+#projects h2
+{
+    padding-top: 10%;
+    text-align: center;
+}
+#projects div span a h3
+{
+    padding: 5% 0;
+    text-align: center;
+}
+footer
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    border-top: 1px solid black;
+}
+footer ul
+{
+    display: flex;
+    width: 95%;
+    padding: 2.5% 0;
+    justify-content: space-evenly;
+    align-items: center;
+}
+@media (max-width: 600px)
+{
+    nav ul
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+}
